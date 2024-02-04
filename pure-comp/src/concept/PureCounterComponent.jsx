@@ -12,7 +12,7 @@ export default class PureCounterComponent extends PureComponent {
 
     changeToggle=()=>{
         this.setState(({
-            toggle: !this.state.toggle 
+            toggle: !this.state.toggle
         }))
     }
 
